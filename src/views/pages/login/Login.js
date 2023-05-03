@@ -19,9 +19,6 @@ import CIcon from "@coreui/icons-react";
 import { cilLockLocked, cilUser, cilLockUnlocked } from "@coreui/icons";
 import logoLogin from "src/assets/brand/login-logo.png";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-import jwt_decode from "jwt-decode";
 
 // async function loginUser() {
 //   return fetch("http://13.215.252.80:3000/auth/login", {
